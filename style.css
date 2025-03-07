@@ -1,0 +1,65 @@
+/* Thiết kế tổng thể */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #fff;
+}
+
+.status, .ping, .chart {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.online {
+    color: #00ff00;
+}
+
+.offline {
+    color: #ff0000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+
+canvas {
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+}
