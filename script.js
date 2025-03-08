@@ -1,4 +1,3 @@
-// Kiểm tra trạng thái máy chủ (giả lập)
 async function checkServerStatus() {
     try {
         const response = await fetch("https://api.github.com"); 
@@ -15,7 +14,6 @@ async function checkServerStatus() {
     }
 }
 
-// Kiểm tra ping bằng API Cloudflare
 async function checkPing() {
     const startTime = Date.now();
     try {
@@ -27,7 +25,6 @@ async function checkPing() {
     }
 }
 
-// Biểu đồ lưu lượng mạng (giả lập)
 function renderChart() {
     const ctx = document.getElementById('trafficChart').getContext('2d');
     new Chart(ctx, {
@@ -45,14 +42,12 @@ function renderChart() {
     });
 }
 
-// Làm mới dữ liệu
 function refreshData() {
     checkServerStatus();
     checkPing();
     renderChart();
 }
 
-// Gọi hàm khi trang tải
 window.onload = function () {
     refreshData();
 };
