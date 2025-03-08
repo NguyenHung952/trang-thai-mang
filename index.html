@@ -6,11 +6,18 @@
     <title>Trạng thái mạng</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css"> <!-- Link file CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1><i class="fas fa-network-wired"></i> Trạng thái mạng</h1>
+        
+        <label for="deviceSelect"><i class="fas fa-microchip"></i> Chọn thiết bị:</label>
+        <select id="deviceSelect">
+            <option value="server1">Máy chủ 1</option>
+            <option value="server2">Máy chủ 2</option>
+            <option value="router">Router chính</option>
+        </select>
         
         <button class="btn" onclick="refreshData()"><i class="fas fa-sync-alt"></i> Làm mới</button>
 
@@ -30,6 +37,6 @@
         </div>
     </div>
 
-    <script src="script.js"></script> <!-- Link file JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
