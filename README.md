@@ -48,9 +48,7 @@ git clone https://github.com/YOUR-USERNAME/network-status.git
 2️⃣ Mở file `index.html` trong trình duyệt.  
 3️⃣ Chọn thiết bị và kiểm tra trạng thái mạng.  
 
-### 🌍 **2. Chạy trên Google Site**  
-Bạn có thể sử dụng chương trình bằng cách truy cập vào:
-https://sites.google.com/view/mycodinz/check-tr%E1%BA%A1ng-th%C3%A1i-m%E1%BA%A1ng
+
 ---
 
 ## 🎯 **Đóng góp & Cải tiến**  
