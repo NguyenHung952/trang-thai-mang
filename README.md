@@ -1,25 +1,41 @@
-# Trạng thái mạng
+# 📡 Trạng thái mạng
 
-Ứng dụng web minh họa và theo dõi **trạng thái mạng**, phục vụ học tập các khái niệm mạng máy tính và thực hành JavaScript.
+> Ứng dụng web trực quan hóa **trạng thái mạng** và các thông tin liên quan, phục vụ học tập mạng máy tính.
 
-## Cấu trúc
+## ✨ Mục tiêu
+
+- Minh họa trạng thái hệ thống mạng trên giao diện.
+- Thực hành xử lý trạng thái bằng JavaScript.
+- Tạo một công cụ học tập nhỏ, dễ mở và dễ thử nghiệm.
+
+## 🧱 Cấu trúc
 
 ```text
 trang-thai-mang/
-├── index.html
-├── script.js
-├── style.css
+├── index.html      # Giao diện
+├── script.js       # Logic trạng thái
+├── style.css       # UI
 └── README.md
 ```
 
-## Thành phần
+## 🚀 Chạy
 
-- `index.html`: giao diện.
-- `script.js`: logic và xử lý trạng thái.
-- `style.css`: định dạng giao diện.
+Mở `index.html` bằng trình duyệt hiện đại. Không yêu cầu backend theo cấu trúc hiện tại.
 
-## Mục đích
+## 🛠️ Công nghệ
 
-Minh họa trạng thái và các thông tin mạng bằng giao diện trực quan trên trình duyệt.
+`HTML5` · `CSS3` · `JavaScript`
 
-> Mã nguồn hiện có được giữ nguyên; chỉ cập nhật README.
+## 🎓 Phù hợp cho
+
+- Học mạng máy tính cơ bản.
+- Minh họa state/status trên web.
+- Thực hành DOM, event và JavaScript.
+
+## 📌 Trạng thái
+
+**Learning / Network Visualization** — chỉ cập nhật tài liệu repository, không thay đổi mã nguồn hiện có.
+
+---
+
+**Nguyễn Ngọc Hùng · IUH**
